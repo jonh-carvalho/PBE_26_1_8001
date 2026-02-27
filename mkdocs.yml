@@ -1,8 +1,8 @@
 ---
-repo_url: https://github.com/jonh-carvalho/PBE_25.2_8003
+repo_url: https://github.com/jonh-carvalho/PBE_26.1_8001
 site_author: Jonh Carvalho
-site_name: PBE_25.2_8003
-copyright: Copyright ©️ 2025, Jonh Carvalho
+site_name: PBE_26.1_8001
+copyright: Copyright ©️ 2026, Jonh Carvalho
 
 nav: 
   - Home: index.md
@@ -98,6 +98,7 @@ plugins:
   - search
 
 theme:
+  favicon: assets/ibmec_icon.png
   name: material
   logo: assets/ibmec_logo.png
   palette:
