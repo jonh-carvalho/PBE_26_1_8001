@@ -64,9 +64,9 @@ Agora vamos instalar o ambiente virtual, que permite isolar pastas (projetos) co
 1. Aperte `Ctrl + Shift + P` e selecione **Python: Create Environment...**.
 2. Após a instalação, aparecerá a pasta `.venv`.
 
-![Criação de Ambiente Virtual](../assets/ambiente/venv.png)
+![Criação de Ambiente Virtual](..//assets/ambiente/venv.pngassets/ambiente/venv.png)
 
-[Pasta Venv](../assets/ambiente/pastavenv.png)
+[Pasta Venv](..//assets/ambiente/pastavenv.png)
 
 
 
@@ -74,7 +74,7 @@ Agora vamos instalar o ambiente virtual, que permite isolar pastas (projetos) co
 
 Abra um Terminal para prosseguirmos com a instalação do **MkDocs**, uma ferramenta que cria sites de documentação a partir de arquivos `.md` (Markdown).
 
-[Terminal](../assets/ambiente/terminal.png)
+[Terminal](..//assets/ambiente/terminal.png)
 
 ### Instalação do MkDocs
 ```bash
@@ -83,7 +83,7 @@ pip install mkdocs
 
 Confirme que a instalação ocorreu com sucesso. Na pasta `[.venv\Lib\site-packages]`, você deve observar o pacote `mkdocs` entre outros dependentes.
 
-![Pacotes instalados no ambiente virtual](images/venv_packages.png)
+![Pacotes instalados no ambiente virtual](..//assets/ambiente/venv_packages.png)
 
 ### Criação do Projeto MkDocs
 Execute o comando abaixo para criar os arquivos de configuração:
@@ -95,7 +95,7 @@ Esse comando cria dois arquivos principais:
 - `mkdocs.yml`
 - `index.md`
 
-![Criação do Projeto MkDocs](images/mkdocs_new.png)
+![Criação do Projeto MkDocs](..//assets/ambiente/mkdocs_new.png)
 
 ### Executar o Servidor MkDocs
 Para visualizar o site renderizado, execute:
@@ -108,7 +108,7 @@ Abra o navegador e clique no link disponibilizado:
 http://127.0.0.1:8000/
 ```
 
-![Site gerado pelo MkDocs](images/mkdocs_site.png)
+![Site gerado pelo MkDocs](..//assets/ambiente/mkdocs_site.png)
 
 ---
 
@@ -129,7 +129,7 @@ Para publicar o repositório no GitHub, clique em **Publish to GitHub** na aba e
 
 Desmarque a pasta `.venv` para que ela não seja enviada ao repositório e clique em **OK**.
 
-![Publicação no GitHub](images/github_publish.png)
+![Publicação no GitHub](..//assets/ambiente/github_publish.png)
 
 Após a conclusão, será exibida uma mensagem de sucesso com o link para o repositório.
 
@@ -146,7 +146,7 @@ Com esses passos realizados, já é possível replicar esse ambiente em outro lo
    ```
 3. Aperte `Ctrl + Shift + P` e selecione **Python: Create Environment**, utilizando o arquivo `requirements.txt` para instalar todas as bibliotecas necessárias.
 
-![Clonagem do Repositório](images/git_clone.png)
+![Clonagem do Repositório](../assets/ambiente/git_clone.png)
 
 ---
 
