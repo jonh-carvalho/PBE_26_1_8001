@@ -13,17 +13,24 @@ nav:
       - Mkdocs: Disciplina/mkdocs.md
       - CodeSpace: Disciplina/codespace.md
       - Avaliações: Disciplina/avaliacoes.md
+      - Roteiros:
+        - Iniciação: 
+          - DT: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md
+          - RUP/UP: Disciplina/Roteiros/Iniciacao/04_RUPgithub.md
+        - Elaboração:
+          - RUP/UP: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
+        
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
       - 5w2h: Iniciacao/5w2h.md
       - Design Thinking: Iniciacao/design_thinking.md
-      - Brainstorming: Iniciacao/brainstorm.md
+      - Brainstorming: Iniciacao/Brainstorm.md
       - Mapa Mental: Iniciacao/mapa_mental.md
       - Prototipagem Baixa Fidelidade: Iniciacao/prototipo_baixa_fidelidade.md
   - Elaboração:
       - Index: Elaboracao/index.md
-      - Requisitos: Elaboracao/das.md
+      - Requisitos: Elaboracao/levreq.md
       - Casos de Uso: Elaboracao/casos_de_uso.md
       - Diagrama de Classes: Elaboracao/diagrama_de_classes.md
       - Diagrama de Sequência: Elaboracao/diagrama_de_sequencia.md
@@ -36,7 +43,7 @@ nav:
   - Transição:
       - Index: Transicao/index.md
 
-  - Bibliografia: Disciplina/bibliografia.md
+  - Bibliografia: Disciplina/Bibliografia.md
 
 extra_css:
   - css/extra.css
