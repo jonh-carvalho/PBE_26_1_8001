@@ -8,7 +8,7 @@
 | __04__ - 20/03/26     | :material-check: Tema | 
 | __05__ - 27/03/26     | :material-check: Elaboração 5w2h  <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) e [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)|
 | __06__ - 03/04/26     | :material-check: Feriado |
-| __07__ - 10/04/26     | :material-check: |
+| __07__ - 10/04/26     | :material-check: [Engenharia de Requisitos](..//assets/Aulas/Engenharia%20de%20Requisitos_Cap05.pdf)  <br> - [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf)|
 | __08__ - 17/04/26     | :material-check: AP1   |
 
 
