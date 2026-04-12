@@ -61,12 +61,5 @@ hide:
 </div>
 
 <!-- Adicione ao seu css/extra.css:
-.grid.four-cols {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
-}
-.grid.four-cols > * {
-    min-width: 0;
-}
+
 -->
