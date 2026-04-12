@@ -21,10 +21,14 @@ h6 {
 }
 
 .grid.four-cols {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
 }
+.grid.four-cols > * {
+    min-width: 0;
+}
+
 
 .grid.four-cols ul {
   display: contents;
