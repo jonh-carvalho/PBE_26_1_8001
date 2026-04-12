@@ -30,16 +30,7 @@ h6 {
 }
 
 
-.grid.four-cols ul {
-  display: contents;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-.grid.four-cols li {
-  min-width: 0;
-}
 
 @media (max-width: 1024px) {
   .grid.four-cols {
