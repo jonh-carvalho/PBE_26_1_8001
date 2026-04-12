@@ -48,6 +48,13 @@ h6 {
   transform: translateY(-1px);
 }
 
+.grid.four-cols a,
+.grid.four-cols a:visited,
+.grid.four-cols a:hover,
+.grid.four-cols a:active {
+  color: #FAB90A;
+}
+
 @media (max-width: 1024px) {
   .grid.four-cols {
     grid-template-columns: repeat(2, minmax(0, 1fr));

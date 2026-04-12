@@ -8,57 +8,53 @@ hide:
 
 <div class="grid four-cols" markdown="1">
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __ISkills - Não deixe de avaliar __</font>
+- <font color="#FAB90A">:material-github:{ .lg .middle } __ISkills - Avalie o grupo __</font>
     <img src="./assets/iskills.png" alt="iSkills" width="60px">
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_I](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_I)__</font>
-    ---
+- <font color="#FAB90A"> :material-github:{ .lg .middle } __[PBE_26.1_8001_I](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_I)__ </font>
+    
     Bernardo, Davi, Viniius, Felipe, Luiz Fabiano  
     
     </font>
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8001_II__</font>
-    ---
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_II](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_II)__</font>
+    
     Bruno, Cauan, João Pedro, Guilherme Viana, Diogo  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_II)
+    
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8002_III__</font>
-    ---
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8002_III](https://github.com/Projetos-de-Extensao/PBE_26.1_8002_III)__</font>
+    
     Vitor, Guilherme Reis, Mateus Reis, Pietro  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_III)
+    
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8001_IV__</font>
-    ---
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_IV](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_IV)__</font>
+    
     Anderson, Bernardo, Gabriel, João Pedro  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_IV)
+    
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8001_V__</font>
-    ---
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_V](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_V)__</font>
+    
     Bernardo, Davi, Viniius, Felipe, Luiz Fabiano  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_V)
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8001_VI__</font>
-    ---
+
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_VI](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_VI)__</font>
+    
     Bruno, Cauan, João Pedro, Guilherme Viana, Diogo  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_VI)
+    
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8002_VII__</font>
-    ---
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8002_VII](https://github.com/Projetos-de-Extensao/PBE_26.1_8002_VII)__</font>
+    
     Vitor, Guilherme Reis, Mateus Reis, Pietro  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8002_VII)
+    
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.2_8002_VIII__</font>
-    ---
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.2_8002_VIII](https://github.com/Projetos-de-Extensao/PBE_26.2_8002_VIII)__</font>
+    
     Anderson, Bernardo, Gabriel, João Pedro  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.2_8002_VIII)
+    
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8001_IX__</font>
-    ---
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_IX](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_IX)__</font>
+    
     Bernardo, Davi, Viniius, Felipe, Luiz Fabiano  
-    [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_IX)
+
 
 </div>
-
-<!-- Adicione ao seu css/extra.css:
-
--->
