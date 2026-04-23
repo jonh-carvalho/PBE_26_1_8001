@@ -1,4 +1,4 @@
-# Roteiro Introdutório: GitHub Workflows
+# GitHub Workflows
 
 ## Objetivo
 Apresentar, de forma prática, o fluxo básico de trabalho com GitHub usando **branches**, **features**, **merges** e **pull requests (PRs)**.

@@ -20,9 +20,13 @@ nav:
         - Elaboração:
           - RUP/UP: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
         - Construção:
-          - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
-          - POO Django: Disciplina/Roteiros/Construcao/Poo/poo_django.ipynb
-        
+          - POO:
+            - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
+            - POO Django: Disciplina/Roteiros/Construcao/Poo/poo_django.ipynb
+          - Django:
+            - Django: Disciplina/Roteiros/Construcao/Django/01_Intro.md
+            - Django Rest: Disciplina/Roteiros/Construcao/Django/02_Intro_Django_Rest.md
+            - Api Consume: Disciplina/Roteiros/Construcao/Django/03_Consume.md
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
@@ -40,7 +44,7 @@ nav:
       - Protótipo de Alta Fidelidade: Elaboracao/prototipo_alta_fidelidade.md
   - Construção:
       - Index: Construcao/index.md
-      - Git Issues: Construcao/git_issues.md
+      - Github Workflows: Construcao/github_workflows.md
       - GitHub Projects: Construcao/github_projects.md
       - CodeSpace: Construcao/codespace.md
   - Transição:
