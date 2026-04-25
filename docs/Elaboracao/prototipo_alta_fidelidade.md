@@ -1,87 +1,156 @@
 ---
-id: diagrama_de_casos de uso
-title: Diagrama de Casos de Uso
+id: prototipobaixa
+title: Protótipo Baixa Fidelidade
 ---
+## Introdução
 
-## Casos de Uso
+<p align = "justify">
+A construção do protótipo de alta fidelidade auxilia a equipe de desenvolvimento a encontrar um nível de detalhes abrangentes, extrair funcionalidades, testar usabilidade, e também fornece uma base para o gerenciamento do projeto pois com o protótipo é possível realizar estimativas de quanto tempo será necessário desempenhar em cada funcionalidade.
+</p>
 
-### Descrição:
+## Metodologia
 
-- Contas
-	- Criação
-	- Entrada
-	- Alteração
-	- Recuperar Senha
-	- Exclusão Lógica
-	- Visualização
+<p align = "justify">
+Iniciamos o projeto através dos levantamentos iniciais da equipe, após discussões a ferramenta Figma foi selecionada para produzir o protótipo de alta fidelidade com auxílio do Material Design Color Tool.
+</p>
 
-- Perfis
-	- Edição
-	- Pesquisar
-	- Visualização
-	- Seguir/Deixar de Seguir
+## Protótipo de alta fidelidade
 
-- Postagens (Público) 	 	
-	- Criação
-	- Exclusão
-	- Interação
-	- Visualização
+### Versão 1.0
 
-- Mensagens (Privado)
-	- Criação
-	- Exclusão
-	- Visualização
+### Tela Login
 
-- Galerias
-	- Albuns
-- Blogs
-- Grupos
+[![Prototipo 1](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Criação de uma conta no sistema
+### Tela Cadastro 1
 
-* Atores:
+[![Prototipo 2](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-	- Usuário
-	- Sistema
+### Tela Cadastro 2
 
-- Pré-Condições:
-	- Nenhuma
+[![Prototipo 3](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-* Fluxo Básico:
-    1. Usuário fornece e-mail, senha e confirmações
-    2. Dados do Usuário são validados pelo Sistema
-    3. Dados do Usuário são encriptados pelo Sistema
-    4. Dados do Usuário são persistidos pelo Sistema
-    5. Sistema gera um link com prazo de expiração
-    6. Sistema envia e-mail de verificação, com o link, para o Usuário
-    7. Usuário confirma o e-mail antes do link expirar
-    8. Sistema confirma que o Cadastro do Usuário foi realizado com sucesso
-    9. Sistema redireciona o Usuário para a página de Entrada
+### Tela Esqueceu Senha
 
-- Fluxos Alternativos:
-	- 2a. E-mail do Usuário é inválido
-		2a1. Sistema exibe mensagem de erro
-	- 2b. Senha do Usuário não respeita regras de segurança
-		- 2b1. Sistema exibe mensagem de erro
-	- 3a. Usuário tenta confirmar o e-mail depois de o link expirar
-		- 3a1. Sistema sugere que o Usuário realize um novo Cadastro
+[![Prototipo 4](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-### Entrada do usuário no sistema
+### Tela do Feed
 
-- Atores:
-	- Usuário
-	- Sistema
+[![Prototipo 5](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-- Pré-Condições:
-	Usuário deve estar cadastrado
+### Tela Feed com configurações
 
-- Fluxo Básico:
-    - 1. Usuário fornece e-mail e senha
-	- 2. Sistema autentica o Usuário
-	- 3. Sistema redireciona o Usuário para a página inicial
+[![Prototipo 6](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
 
-- Fluxos Alternativos:
-	- 2a. Dados do Usuário Inválidos
-		- 2a1. Sistema exibe mensagem de erro
-	- 3a. Primeio acesso do Usuário
-		- 3a1. Sistema redireciona o Usuário para a página de edição de perfil
+### Tela Perfil
+
+[![Prototipo 7](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 1
+
+[![Prototipo 8](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 2
+
+[![Prototipo 9](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 3
+
+[![Prototipo 10](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 4
+
+[![Prototipo 11](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela com meus torneios
+
+[![Prototipo 12](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela de inscrição em torneio
+
+[![Prototipo 13](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+<p align = "justify">
+Na primeira versão do protótipo utilizamos a ferramenta <a href="https://material.io/resources/color/#!/?view.left=0&view.right=0">Material Design Color Tool</a>  para auxiliar na criação da paleta de cores do aplicativo, definimos as cores base do aplicativo mas as cores definidas para as telas 12 e 13 ainda não foram decididas.
+</p>
+
+### Versão 2.0
+
+### Versão 1.0
+
+### Tela Login
+
+[![Prototipo 1](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastro 1
+
+[![Prototipo 2](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastro 2
+
+[![Prototipo 3](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Esqueceu Senha
+
+[![Prototipo 4](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela do Feed
+
+[![Prototipo 5](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Feed com configurações
+
+[![Prototipo 6](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Perfil
+
+[![Prototipo 7](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 1
+
+[![Prototipo 8](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 2
+
+[![Prototipo 9](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 3
+
+[![Prototipo 10](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela Cadastrar torneio 4
+
+[![Prototipo 11](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela com meus torneios
+
+[![Prototipo 12](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+### Tela de inscrição em torneio
+
+[![Prototipo 13](../assets/Prototipo/image.png)](../assets/Prototipo/image.png)
+
+link para o `<a href="https://www.figma.com/">`Protótipo`</a>`
+
+## Conclusão
+
+<p align = "justify">
+A partir da elaboração do protótipo foi possível ter uma noção inicial da interface do usuário, definindo fluxo, paleta de cores, botões, app bars e diversas outras funcionalidades
+</p>
+
+## Referências
+
+> Material Design Color Tool. Disponível em:  https://material.io/resources/color/#!/?view.left=0&view.right=0
+
+> PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
+
+> Ferramenta Figma. Disponível em https://www.figma.com
+
+## Autor(es)
+
+| Data     | Versão | Descrição                            | Autor(es)                                                                            |
+| -------- | ------- | -------------------------------------- | ------------------------------------------------------------------------------------ |
+| 07/09/20 | 1.0     | Criação do documento                 | Lucas Alexandre e Matheus Estanislau                                                 |
+| 07/09/20 | 1.1     | Adicionado as imagens do protótipo    | Lucas Alexandre e Matheus Estanislau                                                 |
+| 07/09/20 | 1.2     | Adicionado conclusão e referências   | Lucas Alexandre e Matheus Estanislau                                                 |
+| 26/10/20 | 2.0     | Adicionada a versão 2.0 do protótipo | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
