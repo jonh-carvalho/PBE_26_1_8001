@@ -8,10 +8,6 @@ nav:
   - Home: index.md
   - Disciplina:
       - Aulas: Disciplina/aulas.md
-      - Ambiente: Disciplina/ambiente.md
-      - Github: Disciplina/github.md
-      - Mkdocs: Disciplina/mkdocs.md
-      - Avaliações: Disciplina/avaliacoes.md
       - Roteiros:
         - Iniciação: 
           - DT: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md
@@ -27,13 +23,19 @@ nav:
             - Django Rest: Disciplina/Roteiros/Construcao/Django/02_Intro_Django_Rest.md
             - Api Consume: Disciplina/Roteiros/Construcao/Django/03_Consume.md
           - BD:
-<<<<<<< HEAD
             - Intro SQL: Disciplina/Roteiros/Construcao/BD/pysqlite.ipynb
             - SQL: Disciplina/Roteiros/Construcao/BD/sqlite.md 
-=======
-            - SQL: Disciplina/Roteiros/Construcao/BD/pysqlite.ipynb
-            - NoSQL: Disciplina/Roteiros/Construcao/BD/sqlite.md
->>>>>>> 209ecb9875cadf540ffbabf169aced48359570b6
+          - Streaming: 
+            - Projeto Streaming: Disciplina/Roteiros/Construcao/Streaming/00_Projeto_Streaming.md
+            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/01_Regras_Negocio.md
+            - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
+            - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
+            - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
+      - Ambiente: Disciplina/ambiente.md
+      - Github: Disciplina/github.md
+      - Mkdocs: Disciplina/mkdocs.md
+      - Avaliações: Disciplina/avaliacoes.md
+      
   - Iniciação: 
       - Index: Iniciacao/index.md
       - Pesquisa: Iniciacao/pesquisa.md
