@@ -150,125 +150,135 @@ Abaixo está a proposta de um diagrama de classes para a modelagem de dados menc
 
 1. **User**
 
-   - `id: int`
-   - `username: str`
-   - `email: str`
-   - `password_hash: str`
-   - `full_name: str`
-   - `profile_pic: str`
-   - `role: str`
-   - `date_joined: datetime`
-   - `last_login: datetime`
-   - `is_active: bool`
+      - `id: int`
+      - `username: str`
+      - `email: str`
+      - `password_hash: str`
+      - `full_name: str`
+      - `profile_pic: str`
+      - `role: str`
+      - `date_joined: datetime`
+      - `last_login: datetime`
+      - `is_active: bool`
 
-   - **Métodos**:
-     - `login()`
-     - `register()`
-     - `updateProfile()`
+      - **Métodos**:
+      
+         - `login()`
+         - `register()`
+         - `updateProfile()`
 
 2. **Content**
 
-   - `id: int`
-   - `title: str`
-   - `description: str`
-   - `file_url: str`
-   - `thumbnail_url: str`
-   - `content_type: str`
-   - `upload_date: datetime`
-   - `views: int`
-   - `likes: int`
-   - `is_public: bool`
-   - `status: str`
-   - **Métodos**:
-      - `upload()`
-      - `deleteContent()`
-      - `updateContent()`
+      - `id: int`
+      - `title: str`
+      - `description: str`
+      - `file_url: str`
+      - `thumbnail_url: str`
+      - `content_type: str`
+      - `upload_date: datetime`
+      - `views: int`
+      - `likes: int`
+      - `is_public: bool`
+      - `status: str`
+
+      - **Métodos**:
+
+         - `upload()`
+         - `deleteContent()`
+         - `updateContent()`
 
 3. **Playlist**
 
-   - `id: int`
-   - `title: str`
-   - `description: str`
-   - `is_public: bool`
-   - `creation_date: datetime`
-   - **Métodos**:
-     - `addContent()`
-     - `removeContent()`
+      - `id: int`
+      - `title: str`
+      - `description: str`
+      - `is_public: bool`
+      - `creation_date: datetime`
+
+      - **Métodos**:
+
+         - `addContent()`
+         - `removeContent()`
 
 4. **Comment**
 
-   - `id: int`
-   - `comment_text: str`
-   - `comment_date: datetime`
-   - **Métodos**:
-      - `addComment()`
-      - `deleteComment()`
+      - `id: int`
+      - `comment_text: str`
+      - `comment_date: datetime`
+
+      - **Métodos**:
+      
+         - `addComment()`
+         - `deleteComment()`
 
 5. **Like**
 
-   - `id: int`
-   - `like_date: datetime`
-   - **Métodos**:
+      - `id: int`
+      - `like_date: datetime`
 
-      - `addLike()`
-      - `removeLike()`
+      - **Métodos**:
+
+         - `addLike()`
+         - `removeLike()`
 
 6. **Subscription**
 
-   - `id: int`
-   - `start_date: datetime`
-   - `end_date: datetime`
-   - `status: str`
-   - **Métodos**:
+      - `id: int`
+      - `start_date: datetime`
+      - `end_date: datetime`
+      - `status: str`
 
-     - `subscribe()`
-     - `cancelSubscription()`
+      - **Métodos**:
+
+         - `subscribe()`
+         - `cancelSubscription()`
 
 7. **ViewHistory**
 
-   - `id: int`
-   - `view_date: datetime`
-   - **Métodos**:
+      - `id: int`
+      - `view_date: datetime`
+
+      - **Métodos**:
   
-       - `addView()`
-       - `getHistory()`
+         - `addView()`
+         - `getHistory()`
 
 ### Relacionamentos
 
 1. **User - Content**
 
-    - Relação 1:N (Um usuário pode criar vários conteúdos).
-    - Um criador de conteúdo (`User`) possui uma coleção de conteúdos associados, o que pode ser modelado pela relação de composição entre `User` e `Content`.
+      - Relação 1:N (Um usuário pode criar vários conteúdos).
+      - Um criador de conteúdo (`User`) possui uma coleção de conteúdos associados, o que pode ser modelado pela relação de composição entre `User` e `Content`.
 
 2. **User - Playlist**
 
-   - Relação 1:N (Um usuário pode criar várias playlists).
-   - Uma playlist pode conter múltiplos conteúdos, e um usuário pode ser dono de várias playlists.
+      - Relação 1:N (Um usuário pode criar várias playlists).
+      - Uma playlist pode conter múltiplos conteúdos, e um usuário pode ser dono de várias playlists.
 
 3. **Playlist - Content**
 
-   - Relação N:M (Uma playlist pode ter vários conteúdos, e um conteúdo pode estar em várias playlists).
-   - Essa relação pode ser representada por uma classe associativa (ou intermediária), ligando `Playlist` e `Content`.
+      - Relação N:M (Uma playlist pode ter vários conteúdos, e um conteúdo pode estar em várias playlists).
+      - Essa relação pode ser representada por uma classe associativa (ou intermediária), ligando `Playlist` e `Content`.
 
 4. **User - Comment**
 
-   - Relação 1:N (Um usuário pode fazer vários comentários).
-   - Um comentário sempre estará associado a um conteúdo específico.
+      - Relação 1:N (Um usuário pode fazer vários comentários).
+      - Um comentário sempre estará associado a um conteúdo específico.
 
 5. **User - Like - Content**
 
-   - Relação N:M (Um usuário pode curtir vários conteúdos, e um conteúdo pode ter várias curtidas).
-   - A classe `Like` serve como a entidade intermediária, conectando `User` e `Content`.
+      - Relação N:M (Um usuário pode curtir vários conteúdos, e um conteúdo pode ter várias curtidas).
+      - A classe `Like` serve como a entidade intermediária, conectando `User` e `Content`.
 
 6. **User - Subscription**
 
-   - Relação 1:1 (Um usuário pode ter uma assinatura ativa).
-   - O usuário pode se inscrever ou cancelar a assinatura.
+      - Relação 1:1 (Um usuário pode ter uma assinatura ativa).
+      - O usuário pode se inscrever ou cancelar a assinatura.
   
 7. **User - ViewHistory - Content**
 
-   - Relação N:M (Um usuário pode assistir a vários conteúdos e um conteúdo pode ser assistido por vários usuários).
-   - A classe `ViewHistory` serve como entidade intermediária.
+      - Relação N:M (Um usuário pode assistir a vários conteúdos e um conteúdo pode ser assistido por vários usuários).
+      - A classe `ViewHistory` serve como entidade intermediária.
 
 ### Diagrama de Classes
 
@@ -414,4 +424,3 @@ Content "1" -- "N" ViewHistory : "viewed by"
 @enduml
 ```
 
-Você pode copiar esse código e colá-lo em um editor compatível com PlantUML para gerar o diagrama de classes. O diagrama refletirá os relacionamentos e atributos discutidos anteriormente.
